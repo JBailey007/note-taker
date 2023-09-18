@@ -14,7 +14,7 @@ router.post('/api/notes', (req, res) => {
     const newFeedback = {
         title: req.body.title,
         text: req.body.text,
-        id: uuidv4();
+        id: uuidv4(),
     };
     dataJson.push(newFeedback);
     fs.writeFileSync("db/db.json",JSON.stringify(dataJson));
