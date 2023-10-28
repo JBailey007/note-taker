@@ -29,7 +29,7 @@ N/A
 # Screenshot
 The following image shows the web application's appearance and functionality:
 
-![The Note Taker Application.](<Note Taker.png>))
+![The Note Taker Application.](<Note Taker.png>)
 
 ## License
 Please refer to the LICENSE in the repo. 
